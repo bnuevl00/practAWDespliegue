@@ -1,0 +1,30 @@
+.grid {
+    margin-left: 2%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 28.5%);
+    gap: 20px 80px;
+
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 58.5%);
+    gap: 20px 80px;
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 800px;
+}
+
+.exit {
+    margin-left: 3%;
+    margin-top: 50px;
+}
+
+.button{
+    height: 50px;
+}
+
+.card {
+    width: 25%;
+}

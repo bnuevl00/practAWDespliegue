@@ -1,0 +1,14 @@
+.row {
+    border-top: solid;
+    border-bottom: solid;
+    display: grid;
+    grid-template-columns: repeat(7, 14.4%);
+    text-align: center;
+    margin-top: 5px;
+    height: 35px;
+}
+
+.button {
+    width: 200px;
+    margin-left: 20px;
+}

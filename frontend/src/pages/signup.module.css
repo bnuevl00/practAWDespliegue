@@ -1,0 +1,23 @@
+.reg {
+    margin-left: 25%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 60%);
+    gap: 10px; 
+}
+
+.title {
+    margin-bottom: 60px;
+}
+
+.create {
+    margin-left: 25%;
+}
+
+.actions {
+    margin-left: 0%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 49.2%);
+    gap: 10px; 
+}

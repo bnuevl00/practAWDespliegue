@@ -1,0 +1,17 @@
+.grid {
+    margin-left: 27%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 31.5%);
+    gap: 30px 20px;
+
+}
+
+.button{
+    height: 50px;
+}
+
+.exit {
+    margin-left: 3%;
+    margin-top: 50px;
+}

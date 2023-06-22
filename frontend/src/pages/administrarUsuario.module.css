@@ -1,0 +1,21 @@
+.grid {
+    margin-left: 27%;
+    margin-top: 150px;
+    
+    gap: 30px 20px;
+
+}
+
+.container {
+    margin-left: 3%;
+    width: 94%;
+    margin-top: 2%;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(7, 14.4%);
+    text-align: center;
+    margin-top: 70px;
+    
+}

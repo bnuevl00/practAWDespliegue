@@ -1,0 +1,56 @@
+.duo {
+    margin-left: 10%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 29.5%);
+    gap: 30px 20px;
+
+}
+
+.card {
+    border-style: solid;
+    position: relative;
+    height: 750px;
+}
+
+.img {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.score {
+    color: darkred;
+    margin-bottom: 20px;
+}
+
+.synopsisText {
+    margin-top: 20px;
+    text-align: justify;
+    width: 90%;
+    margin-left: 5%;
+    height: 100px;
+    overflow-y: scroll;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 2%;
+    margin-left: 0.75%;
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(2, 49.5%);
+    gap: 5px 5px;
+
+}
+
+.buttonAlone {
+    position: absolute;
+    bottom: 2%;
+    margin-left: 0.75%;
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    gap: 5px 5px;
+
+}
